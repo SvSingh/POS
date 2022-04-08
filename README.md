@@ -26,7 +26,7 @@ A Point of Sales System designed and build for windows and Mack Computers. It us
 3. Open MYSQL Workbench or PHPMyAdmin and create a new Database.(You can choose your own database name).
 4. next, Import the Database structure and Database from the SQL File provided in the Database Folder.
 5. Open the src/Database/database.java  file in your IDE.
-6. at Line no. 26, Replace "tomatos" with your own Databse name that you created at step no.3. replace "root" with your MYSQL Username and "" with your MYSQl Passsword.
+6. at Line no. 26, Replace "Database_name" with your own Databse name that you created at step no.3. replace "MYSQL_UserName" with your MYSQL Username and "MYSQL_Password" with your MYSQl Passsword.
 7. Hit Run and your Local POS Should be installed and ready to use.
 
 
