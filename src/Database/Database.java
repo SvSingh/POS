@@ -23,7 +23,7 @@ public class Database {
 		
 		
 		con=DriverManager.getConnection(  
-				"jdbc:mysql://localhost:3308/tomatos","root",""); 
+				"jdbc:mysql://localhost:3308/DatabaseName","MYSQL_UserName","MYSQL_Password"); 
 	}catch (ClassNotFoundException | SQLException e) {
 		// TODO Auto-generated catch block
 		//e.printStackTrace();
